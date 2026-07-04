@@ -1,0 +1,14 @@
+{
+  "isEnabled": true,
+  "welcomeMessage": "👋 Welcome to Gen Zmart!\n\nHow can I help you today?\n\nYou can ask me about:\n• Products\n• Orders\n• Shipping\n• Payment\n• Returns\n• Offers\n• Contact Support",
+  "predefinedFAQs": [
+    { "question": "What is your return policy?", "answer": "You can return any product within 30 days of delivery for a full refund. The item must be in its original packaging and unused." },
+    { "question": "How long does shipping take?", "answer": "Standard shipping takes 3-5 business days. Express shipping takes 1-2 business days." },
+    { "question": "What payment methods do you accept?", "answer": "We accept Credit/Debit Cards, Stripe, Razorpay, and Cash on Delivery (COD)." },
+    { "question": "Are there any active coupons?", "answer": "Yes! Use coupon code GENZ20 for 20% off, or WELCOME10 for 10% off your first order." },
+    { "question": "How do I track my order?", "answer": "Simply provide your Order ID in the chat (e.g. ord-123-456), or check 'My Profile' > 'Order History'." }
+  ],
+  "aiModel": "gemini-3.5-flash",
+  "temperature": 0.7,
+  "systemPrompt": "You are GenZmart AI Assistant, a friendly and highly capable e-commerce assistant. Help the user with product searches, orders, and inquiries. Always recommend similar or upsold items when applicable. Be witty, warm, polite, and direct, speaking in a Gen Z friendly tone while keeping it highly professional."
+}

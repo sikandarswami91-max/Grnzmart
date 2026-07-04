@@ -1,0 +1,375 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Air Max Fury \"Neon\"",
+    "description": "Take your street style to the stratosphere. The Air Max Fury features futuristic neon accents, dual-density foam midsoles, and transparent mesh styling. Perfect for urban explorers demanding premium comfort and unmatched aesthetics.",
+    "price": 189,
+    "originalPrice": 249,
+    "discount": 24,
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&auto=format&fit=crop"
+    ],
+    "category": "Footwear",
+    "stock": 15,
+    "rating": 4.8,
+    "numReviews": 12,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "reviews": [
+      {
+        "id": "rev-1",
+        "user": "sikandargoutam98@gmail.com",
+        "userName": "Gautam Sikandar",
+        "rating": 5,
+        "comment": "Hands down the comfiest sneakers I have ever owned! The neon looks incredibly vibrant in person.",
+        "createdAt": "2026-07-04T06:45:16.594Z"
+      },
+      {
+        "id": "rev-2",
+        "user": "alice@example.com",
+        "userName": "Alice Smith",
+        "rating": 4,
+        "comment": "Very stylish, although they fit slightly snug. Recommend half size up.",
+        "createdAt": "2026-07-04T06:45:16.594Z"
+      }
+    ],
+    "createdAt": "2026-07-04T06:45:16.594Z"
+  },
+  {
+    "id": "prod-2",
+    "name": "GenZ Oversized Cyber Hoodie",
+    "description": "Elevate your off-duty looks with our heavyweight, ultra-soft fleece cyber hoodie. Boxy oversized fit with minimal cybernetic print on the sleeves, premium metal aglets, and dropped shoulders.",
+    "price": 79,
+    "originalPrice": 119,
+    "discount": 33,
+    "images": [
+      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&auto=format&fit=crop"
+    ],
+    "category": "Apparel",
+    "stock": 22,
+    "rating": 4.6,
+    "numReviews": 8,
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "reviews": [
+      {
+        "id": "rev-3",
+        "user": "bob@example.com",
+        "userName": "Bob Carter",
+        "rating": 5,
+        "comment": "Extremely cozy and has that perfect heavy drape. Will buy the other colors too!",
+        "createdAt": "2026-07-04T06:45:16.594Z"
+      }
+    ],
+    "createdAt": "2026-07-04T06:45:16.594Z"
+  },
+  {
+    "id": "prod-3",
+    "name": "Chrono Smartwatch X-1",
+    "description": "A masterpiece of wearable technology. The X-1 features an immersive always-on AMOLED display, futuristic customizable watchfaces, biometric wellness scanning, and a aerospace-grade titanium casing. Dynamic 7-day battery life.",
+    "price": 299,
+    "originalPrice": 399,
+    "discount": 25,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=600&auto=format&fit=crop"
+    ],
+    "category": "Tech Gadgets",
+    "stock": 9,
+    "rating": 4.9,
+    "numReviews": 18,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": true,
+    "reviews": [],
+    "createdAt": "2026-07-04T06:45:16.594Z"
+  },
+  {
+    "id": "prod-4",
+    "name": "Sonic Pods Pro Active",
+    "description": "Immersive sound with next-generation adaptive active noise cancellation. Enjoy deep bass, crystal-clear high frequencies, and low-latency spatial audio designed specifically for high-intensity gaming and outdoor exploration.",
+    "price": 149,
+    "originalPrice": 199,
+    "discount": 25,
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop"
+    ],
+    "category": "Tech Gadgets",
+    "stock": 35,
+    "rating": 4.7,
+    "numReviews": 15,
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "reviews": [],
+    "createdAt": "2026-07-04T06:45:16.594Z"
+  },
+  {
+    "id": "prod-5",
+    "name": "Urban Explorer Tech Backpack",
+    "description": "The ultimate weather-resistant commuter backpack. Featuring an isolated laptop vault, expandable storage pockets, modular magnetic strap attachment ports, and high-visibility reflective detailing for night walks.",
+    "price": 95,
+    "originalPrice": 135,
+    "discount": 29,
+    "images": [
+      "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop"
+    ],
+    "category": "Accessories",
+    "stock": 12,
+    "rating": 4.5,
+    "numReviews": 6,
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNewArrival": false,
+    "reviews": [],
+    "createdAt": "2026-07-04T06:45:16.594Z"
+  },
+  {
+    "id": "prod-6",
+    "name": "Viper Sunset Shades",
+    "description": "Channel retro-futurism with these wrap-around sunset glasses. Crafted with polarized UV400 lenses and shatterproof polycarbonate frames. Sleek aerodynamic fit that sits comfortably.",
+    "price": 59,
+    "originalPrice": 89,
+    "discount": 33,
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=600&auto=format&fit=crop"
+    ],
+    "category": "Accessories",
+    "stock": 45,
+    "rating": 4.4,
+    "numReviews": 4,
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "reviews": [],
+    "createdAt": "2026-07-04T06:45:16.594Z"
+  },
+  {
+    "id": "prod-7",
+    "name": "Alpha Carbon Runner V2",
+    "description": "Engineered with an ultra-light carbon fiber speedplate and nitrogen-infused energy rebound midsoles. Made for setting personal records and turning heads on the track.",
+    "price": 169,
+    "originalPrice": 229,
+    "discount": 26,
+    "images": [
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1539185441755-769473a23570?w=600&auto=format&fit=crop"
+    ],
+    "category": "Footwear",
+    "stock": 20,
+    "rating": 4.7,
+    "numReviews": 10,
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "reviews": [],
+    "createdAt": "2026-07-04T06:45:16.594Z"
+  },
+  {
+    "id": "prod-8",
+    "name": "Cyberpunk Cargo Utility Pants",
+    "description": "Multi-pocket tactical design constructed with quick-dry ripstop fabric. Adjustable ankle straps, metal carabiner attachments, and loose-fit comfort suited for streetwear enthusiasts.",
+    "price": 89,
+    "originalPrice": 129,
+    "discount": 31,
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517462964-21fdcec3f25b?w=600&auto=format&fit=crop"
+    ],
+    "category": "Apparel",
+    "stock": 14,
+    "rating": 4.5,
+    "numReviews": 5,
+    "isFeatured": false,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "reviews": [],
+    "createdAt": "2026-07-04T06:45:16.594Z"
+  },
+  {
+    "id": "prod-9",
+    "name": "Retro Puff-Glow Puffer Jacket",
+    "description": "The ultimate cold-weather streetwear weapon. High-shine ripstop shell packed with cloud-like thermal insulation. Features a removable hooded balaclava, interior gear harnesses, and sleek reflective logo branding.",
+    "price": 149,
+    "originalPrice": 199,
+    "discount": 25,
+    "images": [
+      "https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&auto=format&fit=crop"
+    ],
+    "category": "Apparel",
+    "stock": 18,
+    "rating": 4.9,
+    "numReviews": 14,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": true,
+    "reviews": [
+      {
+        "id": "rev-9-1",
+        "user": "sikandargoutam98@gmail.com",
+        "userName": "Gautam Sikandar",
+        "rating": 5,
+        "comment": "Absolutely spectacular puffer jacket! Keeps me incredibly warm and gets so many compliments.",
+        "createdAt": "2026-07-04T12:30:00.000Z"
+      }
+    ],
+    "createdAt": "2026-07-04T12:00:00.000Z"
+  },
+  {
+    "id": "prod-10",
+    "name": "Vintage Washed Graphic Heavy Tee",
+    "description": "Constructed from 300GSM ultra-dense organic combed cotton. Heavily washed for that authentic vintage patina and drape. Features a premium screen-printed abstract futuristic design on the back.",
+    "price": 45,
+    "originalPrice": 65,
+    "discount": 30,
+    "images": [
+      "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop"
+    ],
+    "category": "Apparel",
+    "stock": 40,
+    "rating": 4.7,
+    "numReviews": 9,
+    "isFeatured": true,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "reviews": [],
+    "createdAt": "2026-07-04T12:05:00.000Z"
+  },
+  {
+    "id": "prod-11",
+    "name": "Modular Techwear Utility Vest",
+    "description": "Engineered with water-repellent Cordura fabric and modular MOLLE attachment points. Multiple magnetic fidlock buckle pockets, breathable dual-layer mesh lining, and adjustable chest harness straps.",
+    "price": 99,
+    "originalPrice": 139,
+    "discount": 28,
+    "images": [
+      "https://images.unsplash.com/photo-1548883354-7622d03aca27?w=600&auto=format&fit=crop"
+    ],
+    "category": "Apparel",
+    "stock": 10,
+    "rating": 4.6,
+    "numReviews": 3,
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "reviews": [],
+    "createdAt": "2026-07-04T12:10:00.000Z"
+  },
+  {
+    "id": "prod-12",
+    "name": "Urban Fleece Windbreaker",
+    "description": "Ultra-cozy fleece lining merged with a water-resistant ripstop storm shell. Two-tone futuristic colorway with dynamic color block panels, high-rise collar, and dual zip utility vents.",
+    "price": 110,
+    "originalPrice": 150,
+    "discount": 26,
+    "images": [
+      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?w=600&auto=format&fit=crop"
+    ],
+    "category": "Apparel",
+    "stock": 25,
+    "rating": 4.8,
+    "numReviews": 7,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "reviews": [],
+    "createdAt": "2026-07-04T12:15:00.000Z"
+  },
+  {
+    "id": "prod-13",
+    "name": "Acid-Wash Distressed Jeans",
+    "description": "Heavyweight premium denim designed in a relaxed, straight-leg style. Finished with subtle hand-distressed detailing, custom silver hardware, and signature double-knee reinforcement panels.",
+    "price": 85,
+    "originalPrice": 115,
+    "discount": 26,
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop"
+    ],
+    "category": "Apparel",
+    "stock": 16,
+    "rating": 4.5,
+    "numReviews": 6,
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "reviews": [],
+    "createdAt": "2026-07-04T12:20:00.000Z"
+  },
+  {
+    "id": "prod-14",
+    "name": "Vanguard High-Top Sneakers",
+    "description": "Premium high-top sneaker fusing high-fashion aesthetics with technical streetwear durability. Handcrafted with full-grain leather, dual zipper details, dynamic neon heel tags, and responsive combat outsole grips.",
+    "price": 220,
+    "originalPrice": 299,
+    "discount": 26,
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=600&auto=format&fit=crop"
+    ],
+    "category": "Footwear",
+    "stock": 12,
+    "rating": 4.9,
+    "numReviews": 11,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": true,
+    "reviews": [],
+    "createdAt": "2026-07-04T12:25:00.000Z"
+  },
+  {
+    "id": "prod-15",
+    "name": "Streetwear Corduroy Bucket Hat",
+    "description": "Soft, chunky wide-wale corduroy bucket hat in a vintage olive green. Features an embroidered minimalist logo, moisture-wicking internal sweatband, and adjustable bungee utility drawcord.",
+    "price": 35,
+    "originalPrice": 49,
+    "discount": 28,
+    "images": [
+      "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513105041245-149b049e9000?w=600&auto=format&fit=crop"
+    ],
+    "category": "Accessories",
+    "stock": 30,
+    "rating": 4.4,
+    "numReviews": 5,
+    "isFeatured": false,
+    "isBestSeller": false,
+    "isNewArrival": true,
+    "reviews": [],
+    "createdAt": "2026-07-04T12:30:00.000Z"
+  },
+  {
+    "id": "prod-16",
+    "name": "Apex Noise-Cancelling Headset",
+    "description": "Over-ear smart headphones with custom aerospace aluminium earcups, hybrid active noise cancellation, and a dynamic signature bass response. Sleek cyberpunk aesthetic with glowing status accents.",
+    "price": 249,
+    "originalPrice": 329,
+    "discount": 24,
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&auto=format&fit=crop"
+    ],
+    "category": "Tech Gadgets",
+    "stock": 14,
+    "rating": 4.8,
+    "numReviews": 10,
+    "isFeatured": true,
+    "isBestSeller": true,
+    "isNewArrival": false,
+    "reviews": [],
+    "createdAt": "2026-07-04T12:35:00.000Z"
+  }
+]

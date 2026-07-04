@@ -1,0 +1,30 @@
+# Netlify Configuration File
+# This file configures the build settings and routing rules for deploying your React SPA on Netlify.
+
+[build]
+  # For Netlify static-only deploy, you can use "npm run build" or "npx vite build".
+  # "npm run build" will compile both the Vite frontend and the server file.
+  command = "npm run build"
+  publish = "dist"
+
+# --- API REDIRECT RULE (RECOMMENDED FOR FULL-STACK) ---
+# If you deploy your Node/Express backend separately (e.g., to Render, Railway, or Cloud Run):
+# 1. Uncomment the lines below.
+# 2. Replace "https://your-backend-api-url.onrender.com" with your live backend API URL.
+# This proxies all frontend requests from "/api/*" securely to your backend server,
+# avoiding any CORS errors and keeping cookies / auth headers intact.
+#
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://your-backend-api-url.onrender.com/api/:splat"
+#   status = 200
+#   force = true
+
+# --- SPA ROUTING REDIRECT RULE (REQUIRED) ---
+# Since this is a React Single Page Application (SPA) using React Router,
+# this rule ensures that browser refreshes on subpages (like /shop, /cart, /checkout)
+# redirect to index.html instead of returning a 404 error.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

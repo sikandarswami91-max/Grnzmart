@@ -1,0 +1,6 @@
+{
+  "name": "GenZmart",
+  "description": "A modern, premium, and full-stack e-commerce platform with elegant glassmorphism design, advanced product filtering, shopping cart, checkout, admin analytics, and persistent storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
